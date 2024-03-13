@@ -1,0 +1,87 @@
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(150, 171, 184);
+    height: 100vh;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Roboto', sans-serif;
+
+    background-color: white;
+    border-radius: 10px;
+    width: 80%;
+    height: auto; /* ปรับความสูงให้เป็น auto */
+    padding: 3px;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    /* margin: 10px; */
+}
+thead{
+    border-bottom:2px solid gray;
+    padding: 5px;
+    
+}
+tr{
+    border-bottom:1px solid rgb(148, 146, 146);
+}
+.btn-sm{
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(255, 255, 146);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    width: 100; /* ปรับความกว้างให้เป็น auto */
+    height: auto; /* ปรับความสูงให้เป็น auto */
+}
+.btn-cc{
+    padding: 10px;
+    margin: 5px;
+    background-color:rgb(252, 101, 82);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    width: auto; /* ปรับความกว้างให้เป็น auto */
+    height: auto; /* ปรับความสูงให้เป็น auto */
+}
+.btn-add{
+    padding: 10px;
+    background-color: rgb(131, 243, 193);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    width: auto; /* ปรับความกว้างให้เป็น auto */
+    height: auto; /* ปรับความสูงให้เป็น auto */
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto; /* ปรับความกว้างให้เป็น auto */
+    height: auto; /* ปรับความสูงให้เป็น auto */
+}
+td{
+    padding: 5px;
+    word-wrap: break-word;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
